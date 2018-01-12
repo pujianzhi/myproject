@@ -23,6 +23,7 @@ public class StudentSevlet extends HttpServlet{
             JsonUtil.printByJSON(resp,list);
 
         }else {
+            System.out.println();
 
         }
     }
